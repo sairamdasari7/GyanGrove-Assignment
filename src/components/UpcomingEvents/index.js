@@ -4,7 +4,6 @@ import './index.css';
 
 const UpcomingEvents = () => {
   const [events, setEvents] = useState([]);
-  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     axios.get('https://gg-backend-assignment.azurewebsites.net/api/Events?code=FOX643kbHEAkyPbdd8nwNLkekHcL4z0hzWBGCd64Ur7mAzFuRCHeyQ==&page=1&type=upcoming') 
