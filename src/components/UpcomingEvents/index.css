@@ -1,0 +1,48 @@
+.upcoming-events-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display three columns */
+    grid-gap: 20px;
+  }
+  
+  .event-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .event-details {
+    margin-top: 10px;
+  }
+  
+  /* Additional styling for the header and button */
+  .upcoming-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .upcoming-heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .see-all-btn {
+    background-color: transparent;
+    border: none;
+    color: #ffffff; /* Adjust the color as needed */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .upcoming-heading{
+    color: #ffffff;
+  }
