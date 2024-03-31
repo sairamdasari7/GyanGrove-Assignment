@@ -16,10 +16,6 @@ const UpcomingEvents = () => {
       });
   }, []);
 
-  const toggleShowAll = () => {
-    setShowAll(!showAll);
-  };
-
   return (
     <section className="upcoming-events">
       <div className="upcoming-header">
