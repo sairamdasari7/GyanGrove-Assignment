@@ -16,16 +16,16 @@ const UpcomingEvents = () => {
       });
   }, []);
 
-  //const toggleShowAll = () => {
-    //setShowAll(!showAll);
-  //};
+  const toggleShowAll = () => {
+    setShowAll(!showAll);
+  };
 
 
   return (
     <section className="upcoming-events">
       <div className="upcoming-header">
         <h2 className='upcoming-heading'>Upcoming Events</h2>
-       
+        <button onClick={toggleShowAll} className="see-all-btn">See All</button>
       </div>
       <div className="upcoming-events-container">
         {events.slice(0, showAll ? events.length : 10).map(event => (
